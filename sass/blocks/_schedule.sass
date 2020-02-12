@@ -1,0 +1,47 @@
+.schedule
+  margin-top: 140px
+  &-block
+    display: flex
+    flex-wrap: wrap
+  &__item
+    flex-basis: 23%
+    margin: 8px auto
+    background-color: #fff8e6
+  &__section
+    text-align: center
+    padding-top: 18px
+  &__date
+    font-size: 12px
+    +lightitalic
+    text-align: center
+  &__reduction
+    font-size: 15px
+    +medium
+    text-align: center
+    margin: 0
+    padding: 10px
+  &__link
+    font-size: 10px
+    +regular
+    padding-top: 15px
+  &__btn
+    display: block
+    border: 1px solid #e28234
+    font-size: 10px
+    +bold
+    color: #e28234
+    text-transform: uppercase
+    padding: 9px 16px
+    margin: 10px auto
+    cursor: pointer
+  &__btn:hover
+    background-color: #e28234
+    color: #fff
+@media (max-width: 480px)
+  .schedule
+    &__item
+      flex-basis: 46%
+@media (max-width: 320px)
+  .schedule
+    &__item
+      flex-basis: 70%

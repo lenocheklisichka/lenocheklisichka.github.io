@@ -1,0 +1,42 @@
+.footer
+  background-color: #000
+  height: 90px
+  &-wrap
+    display: flex
+    padding-top: 16px
+    justify-content: space-between
+    color: $text-color
+  &__logo
+    background: url('../img/footer/footer-logo.png') no-repeat
+    width: 51px
+    height: 66px
+    margin-right: 25px
+  &__text
+    font-size: 10px
+    +regular
+    display: block
+  &__email
+    font-size: 16px
+    +regular
+    color: #ffffff
+    text-decoration: none
+    border-bottom: 1px solid #fff
+  &__box
+    display: flex
+@media (max-width: 480px)
+  .footer
+    height: 160px
+    &-wrap
+      flex-wrap: wrap
+      justify-content: center
+    &__text
+      text-align: center
+@media (max-width: 480px)
+  .footer
+    &__email
+      font-size: 14px
+    &__text
+      font-size: 9px
+
+
+
