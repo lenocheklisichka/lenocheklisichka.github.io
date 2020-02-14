@@ -15,6 +15,18 @@
   }
 }
 
+@media (max-width: 480px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
 @font-face {
   font-family: 'Muller Medium';
   src: url("../fonts/MullerMedium.ttf") format("truetype");
@@ -282,6 +294,7 @@ img {
   background: url(../img/header/bg_yoga.png) no-repeat;
   height: 663px;
   background-position: center;
+  background-size: cover;
   color: #fff;
 }
 
@@ -1070,19 +1083,19 @@ img {
 @media (max-width: 768px) {
   .instructors__img1 {
     background: url(../img/instructors/instructors_img1media.png) no-repeat;
-    width: 650px;
+    width: 100%;
     height: 373px;
     margin: auto;
     margin-bottom: 20px;
   }
   .instructors__img2 {
     background: url(../img/instructors/instructors_img2media.png) no-repeat;
-    width: 650px;
+    width: 100%;
     height: 373px;
     margin: auto;
   }
   .instructors__block {
-    width: 650px;
+    width: 100%;
     height: 120px;
   }
   .instructors__name {
@@ -1356,7 +1369,7 @@ img {
 }
 
 .cost-wrap {
-  width: 700px;
+  width: 100%;
   height: 250px;
   background-color: #fff;
   position: relative;
@@ -1396,7 +1409,7 @@ img {
 }
 
 .cost__block {
-  width: 700px;
+  width: 100%;
   height: 60px;
   background-color: #f4e1b6;
   position: absolute;
