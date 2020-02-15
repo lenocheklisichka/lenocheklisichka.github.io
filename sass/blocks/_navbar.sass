@@ -52,10 +52,16 @@
     width: 26px
     height: 26px
     margin-left: 7px
-@media (max-width: 480px)
+@media (min-width: 481px) and (max-width: 735px)
   .navbar
     &__title
       font-size: 35px
+    &__subtitle
+      font-size: 18px
+@media (max-width: 480px)
+  .navbar
+    &__title
+      font-size: 32px
 @media (max-width: 320px)
   .navbar
     &-box 

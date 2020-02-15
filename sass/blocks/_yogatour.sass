@@ -43,6 +43,17 @@
     font-size: 16px
     +lightitalic
     text-transform: uppercase
+@media (min-width: 481px) and (max-width: 735px)
+  .yogatour
+    &__block
+      flex-direction: column
+      max-width: 350px
+      margin: auto
+@media (max-width: 768px)
+  .yogatour
+    &__box
+      max-width: 500px
+      margin-top: 80px
 @media (max-width: 480px)
   .yogatour
     &__block

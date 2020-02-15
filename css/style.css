@@ -18,12 +18,14 @@
 @media (max-width: 480px) {
   .container {
     max-width: 100%;
+    padding: 0 40px;
   }
 }
 
 @media (max-width: 320px) {
   .container {
     max-width: 100%;
+    padding: 0 40px;
   }
 }
 
@@ -160,6 +162,12 @@ img {
   }
 }
 
+@media (min-width: 481px) and (max-width: 735px) {
+  .bg-secondary {
+    height: 950px;
+  }
+}
+
 @media (max-width: 480px) {
   .bg-secondary {
     height: 980px;
@@ -175,6 +183,12 @@ img {
 @media (max-width: 320px) {
   .bg-secondary {
     height: 930px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .section-title {
+    font-size: 28px;
   }
 }
 
@@ -404,9 +418,18 @@ img {
   margin-left: 7px;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 481px) and (max-width: 735px) {
   .navbar__title {
     font-size: 35px;
+  }
+  .navbar__subtitle {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar__title {
+    font-size: 32px;
   }
 }
 
@@ -500,6 +523,24 @@ img {
   text-transform: uppercase;
 }
 
+@media (min-width: 481px) and (max-width: 735px) {
+  .yogatour__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 350px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .yogatour__box {
+    max-width: 500px;
+    margin-top: 80px;
+  }
+}
+
 @media (max-width: 480px) {
   .yogatour__block {
     -webkit-box-orient: vertical;
@@ -570,6 +611,14 @@ img {
   font-family: 'Muller Regular', sans-serif;
 }
 
+@media (min-width: 481px) and (max-width: 735px) {
+  .triptour-block__item {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    padding-bottom: 20px;
+  }
+}
+
 @media (max-width: 480px) {
   .triptour-block {
     -ms-flex-pack: distribute;
@@ -623,7 +672,6 @@ img {
   color: #fff;
   width: 780px;
   height: 400px;
-  position: relative;
   margin: 0 20px;
 }
 
@@ -634,9 +682,8 @@ img {
 }
 
 .travel__box {
-  position: absolute;
-  top: 40%;
-  left: 26%;
+  text-align: center;
+  padding-top: 170px;
 }
 
 .travel__ayurveda {
@@ -644,13 +691,11 @@ img {
   font-family: 'Muller Medium', sans-serif;
   text-align: center;
   text-transform: uppercase;
-  margin: 0 50px;
 }
 
 .travel__text {
   font-size: 14px;
   font-family: 'Muller Regular', sans-serif;
-  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -673,6 +718,16 @@ img {
     background: url(../img/travel/moremedia.png) no-repeat;
     width: 650px;
     height: 367px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .travel-block {
+    width: 90%;
+    margin: auto;
+  }
+  .travel__yoga {
+    background-position: center;
   }
 }
 
@@ -743,7 +798,6 @@ img {
 }
 
 .schedule__btn {
-  display: block;
   border: 1px solid #e28234;
   font-size: 10px;
   font-family: 'Muller Bold', sans-serif;
@@ -751,12 +805,26 @@ img {
   text-transform: uppercase;
   padding: 9px 16px;
   margin: 10px auto;
+  background-color: transparent;
   cursor: pointer;
 }
 
 .schedule__btn:hover {
   background-color: #e28234;
   color: #fff;
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .schedule__item {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+  }
+  .schedule__reduction {
+    font-size: 13px;
+  }
+  .schedule__btn {
+    font-size: 8px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -796,7 +864,6 @@ img {
   color: #fff;
   width: 780px;
   height: 440px;
-  position: relative;
   margin: 0 20px;
 }
 
@@ -807,15 +874,13 @@ img {
 }
 
 .program__box {
-  position: absolute;
-  top: 40%;
-  left: 30%;
+  text-align: center;
+  padding-top: 160px;
 }
 
 .program__day {
   font-size: 24px;
   font-family: 'Muller Medium', sans-serif;
-  text-align: center;
   text-transform: uppercase;
   margin: 0 100px;
 }
@@ -823,7 +888,6 @@ img {
 .program__text {
   font-size: 13px;
   font-family: 'Muller Regular', sans-serif;
-  text-align: center;
   line-height: 18px;
 }
 
@@ -989,8 +1053,29 @@ img {
 }
 
 @media (max-width: 768px) {
+  .ayurveda-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ayurveda__image {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: auto;
+  }
   .ayurveda__img {
-    width: 50%;
+    width: 33%;
+  }
+  .ayurveda__text3 {
+    margin: auto;
+    padding: 25px;
+    max-width: 720px;
+  }
+  .ayurveda__text4 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -999,11 +1084,11 @@ img {
     font-size: 16px;
   }
   .ayurveda__image {
-    max-width: 400px;
+    max-width: 350px;
     margin: auto;
   }
   .ayurveda__text3 {
-    max-width: 380px;
+    max-width: 340px;
     margin: auto;
     padding-left: 0;
   }
@@ -1019,6 +1104,19 @@ img {
   .ayurveda__advice {
     font-size: 14px;
     text-align: center;
+  }
+  .ayurveda__image {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .ayurveda__img {
+    width: 100%;
   }
   .ayurveda__text {
     text-align: center;
@@ -1144,6 +1242,10 @@ img {
 }
 
 @media (max-width: 768px) {
+  .instructors__image {
+    margin: auto;
+    width: 80%;
+  }
   .instructors__img1 {
     background: url(../img/instructors/instructors_img1media.png) no-repeat;
     width: 100%;
@@ -1170,6 +1272,10 @@ img {
 }
 
 @media (max-width: 480px) {
+  .instructors__image {
+    width: 100%;
+    margin: auto;
+  }
   .instructors__img1 {
     background: url(../img/instructors/instructors_img1media480.png) no-repeat;
     width: 400px;
@@ -1893,6 +1999,13 @@ img {
 .contacts__maptext {
   font-size: 11px;
   font-family: 'Muller Regular', sans-serif;
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .contacts__block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 480px) {

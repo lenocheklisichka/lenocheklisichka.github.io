@@ -13,26 +13,22 @@
     color: $text-color
     width: 780px
     height: 400px
-    position: relative
     margin: 0 20px
   &__more
     background: url(../img/travel/more.png) no-repeat
     width: 352px
     height: 367px
   &__box
-    position: absolute
-    top: 40%
-    left: 26%
+    text-align: center
+    padding-top: 170px
   &__ayurveda
     font-size: 17px
     +medium
     text-align: center
     text-transform: uppercase
-    margin: 0 50px
   &__text
     font-size: 14px
     +regular
-    text-align: center
 @media (max-width: 768px)  
   .travel
     &-block
@@ -50,6 +46,13 @@
       background: url(../img/travel/moremedia.png) no-repeat
       width: 650px
       height: 367px
+@media (min-width: 481px) and (max-width: 735px)
+  .travel
+    &-block
+      width: 90%
+      margin: auto
+    &__yoga
+      background-position: center
 @media (max-width: 480px)
   .travel
     &__box
