@@ -15,7 +15,7 @@
   &__program
     font-size: 16px
     +regular
-    line-height: 30px
+    padding-bottom: 10px
   &__euro
     font-size: 16px
     +medium
@@ -79,6 +79,8 @@
     &-wrap 
       width: 100%
       height: 200px
+    &__section1
+      padding-top: 16px
     &__block
       width: 100%
       height: 50px
@@ -103,8 +105,11 @@
   .cost
     &-wrap 
       height: 170px
+    &__section1
+      padding-top: 15px
     &__program, &__day
       font-size: 7px
+      padding-bottom: 18px
     &__euro
       font-size: 9px
     &__text
@@ -120,7 +125,34 @@
       font-size: 11px
     &__check, &__delet
       display: none
- 
+@media (min-width: 321px) and (max-width: 479px)
+  .cost
+    &-wrap 
+      width: 100%
+      height: 170px
+    &__section1
+      padding-top: 15px
+    &__program, &__day
+      font-size: 7px
+      padding-bottom: 18px
+    &__euro
+      font-size: 9px
+    &__block
+      height: 40px
+    &__text
+      font-size: 7px
+      padding-top: 5px
+    &__btn
+      font-size: 7px
+      border: 1px solid #e28234
+      margin: 10px 0
+    &__included
+      font-size: 20px  
+    &__check, &__delet
+      display: none
+         
+
+
 
 
 
