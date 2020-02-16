@@ -24,6 +24,14 @@
       flex-wrap: wrap
     &__item
       padding-bottom: 30px
+@media (min-width: 481px) and (max-width: 735px)
+  .work
+    &-block
+      flex-wrap: wrap
+      max-width: 450px
+      margin: auto
+    &__design
+      font-size: 13px
 @media (max-width: 480px)
   .work
     &__design
@@ -34,6 +42,7 @@
       margin: auto
     &__item
       padding-bottom: 30px
+      flex: 45%
 @media (max-width: 320px)
   .work
     &-block

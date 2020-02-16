@@ -23,6 +23,22 @@
 @media (max-width: 768px)
   .reviews
     margin-top: 30px
+@media (min-width: 481px) and (max-width: 735px)
+  .reviews
+    &-block
+      flex-direction: column
+      max-width: 350px
+      margin: auto
+    &__img
+      margin: auto
+    &__name
+      text-align: center
+      margin-top: 20px
+    &__email
+      text-align: center
+    &__text
+      text-align: center
+      font-size: 16px
 @media (max-width: 480px)
   .reviews
     margin-top: 0

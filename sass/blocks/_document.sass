@@ -1,6 +1,6 @@
 .document
   &__text
-    font-size: 13px
+    font-size: 12px
     +lightitalic
     text-align: center
   &__heading
@@ -35,6 +35,18 @@
   &__img
     display: block
     margin: auto
+@media (min-width: 481px) and (max-width: 735px)
+  .document
+    &__block
+      flex-wrap: wrap
+      max-width: 300px
+      margin: auto
+    &__heading
+      font-size: 18px
+    &__text
+      font-size: 11px
+    &__text1
+      font-size: 9px
 @media (max-width: 480px)
   .document
     &__text

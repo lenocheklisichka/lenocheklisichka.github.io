@@ -36,8 +36,9 @@
       flex-wrap: wrap
     &__boxing 
       background: url(../img/program/boxingmedia.png) no-repeat
-      width: 650px
+      width: 70%
       height: 367px
+      background-position: center
     &__second
       background: url(../img/program/secondmedia.png) no-repeat
       width: 650px
@@ -45,16 +46,24 @@
       margin: 20px
     &__third
       background: url(../img/program/thirdmedia.png) no-repeat
-      width: 650px
+      width: 70%
       height: 367px
+@media (min-width: 481px) and (max-width: 735px)
+  .program
+    &__boxing, &__third
+      width: 80%
+      background-position: center
+    &__second
+      background-position: center
 @media (max-width: 480px)
   .program
     &__box 
       display: none
     &__boxing 
       background: url(../img/program/boxingmedia480.png) no-repeat
-      width: 400px
+      width: 65%
       height: 226px
+      background-position: center
     &__second
       background: url(../img/program/secondmedia480.png) no-repeat
       width: 400px
@@ -62,13 +71,12 @@
       margin: 20px
     &__third
       background: url(../img/program/thirdmedia480.png) no-repeat
-      width: 400px
+      width: 65%
       height: 226px
 @media (max-width: 320px)
   .program
     &__boxing, &__third
-      background-position: center
-      margin: 0 20px;
+      width: 95%
     &__second
       background-position: center
       
