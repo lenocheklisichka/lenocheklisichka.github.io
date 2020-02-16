@@ -4,11 +4,11 @@
     justify-content: space-between
   &__img
     background: url(../img/yogatour/img_yoga.png) no-repeat
-    width: 100%
+    width: 350px
     height: 440px
     margin-top: 45px
   &__box
-    max-width: 600px
+    max-width: 380px
     margin-top: 90px
   &__title
     font-size: 25px
@@ -43,17 +43,24 @@
     font-size: 16px
     +lightitalic
     text-transform: uppercase
+@media (max-width: 768px)
+  .yogatour
+    &__box
+      max-width: 300px
+      margin-top: 80px
 @media (min-width: 481px) and (max-width: 735px)
   .yogatour
     &__block
       flex-direction: column
       max-width: 350px
       margin: auto
-@media (max-width: 768px)
-  .yogatour
+    &__title
+      text-align: center
     &__box
-      max-width: 500px
-      margin-top: 80px
+      margin-top: 50px
+    &__network
+      width: 55%
+      margin: auto
 @media (max-width: 480px)
   .yogatour
     &__block
@@ -66,8 +73,21 @@
     &__title
       text-align: center
     &__network
-      width: 50%
+      width: 55%
       margin: auto
+@media (min-width: 321px) and (max-width: 479px)
+  .yogatour
+    &__span
+      font-size: 30px
+    &__title, &__text
+      text-align: center
+    &__network
+      width: 70%
+      margin: auto
+    &__img
+      background: url(../img/yogatour/img_yoga_media.png) no-repeat
+      width: 260px
+      height: 327px
 @media (max-width: 320px) 
   .yogatour
     &__img
