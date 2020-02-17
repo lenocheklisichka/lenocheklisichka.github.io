@@ -160,6 +160,13 @@ img {
   }
 }
 
+@media (max-width: 480px) {
+  .button-o {
+    font-size: 12px;
+    padding: 15px 35px;
+  }
+}
+
 @media (max-width: 320px) {
   .section {
     padding: 40px 0;
@@ -455,11 +462,20 @@ img {
   .navbar__subtitle {
     font-size: 18px;
   }
+  .navbar-box {
+    padding-top: 50px;
+  }
 }
 
 @media (max-width: 480px) {
   .navbar__title {
     font-size: 32px;
+  }
+  .navbar__subtitle {
+    font-size: 15px;
+  }
+  .navbar-box {
+    padding-top: 50px;
   }
 }
 
@@ -778,7 +794,7 @@ img {
   }
   .travel__yoga {
     background: url(../img/travel/yogamedia.png) no-repeat;
-    width: 650px;
+    width: 70%;
     height: 367px;
   }
   .travel__therapy {
@@ -789,7 +805,7 @@ img {
   }
   .travel__more {
     background: url(../img/travel/moremedia.png) no-repeat;
-    width: 650px;
+    width: 70%;
     height: 367px;
   }
 }
@@ -810,7 +826,7 @@ img {
   }
   .travel__yoga {
     background: url(../img/travel/yogamedia480.png) no-repeat;
-    width: 400px;
+    width: 65%;
     height: 226px;
   }
   .travel__therapy {
@@ -821,8 +837,22 @@ img {
   }
   .travel__more {
     background: url(../img/travel/moremedia480.png) no-repeat;
-    width: 400px;
+    width: 65%;
     height: 226px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 479px) {
+  .travel__yoga, .travel__more {
+    width: 90%;
+    background-position: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .travel__yoga, .travel__more {
+    width: 90%;
+    background-position: center;
   }
 }
 
@@ -1166,6 +1196,7 @@ img {
 @media (min-width: 481px) and (max-width: 735px) {
   .ayurveda__program {
     font-size: 16px;
+    text-align: center;
   }
   .ayurveda__image {
     max-width: 400px;
@@ -1183,6 +1214,7 @@ img {
 @media (max-width: 480px) {
   .ayurveda__program {
     font-size: 16px;
+    text-align: center;
   }
   .ayurveda__image {
     max-width: 350px;

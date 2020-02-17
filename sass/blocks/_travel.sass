@@ -35,7 +35,7 @@
       flex-wrap: wrap
     &__yoga 
       background: url(../img/travel/yogamedia.png) no-repeat
-      width: 650px
+      width: 70%
       height: 367px
     &__therapy
       background: url(../img/travel/therapymedia.png) no-repeat
@@ -44,7 +44,7 @@
       margin: 20px
     &__more 
       background: url(../img/travel/moremedia.png) no-repeat
-      width: 650px
+      width: 70%
       height: 367px
 @media (min-width: 481px) and (max-width: 735px)
   .travel
@@ -59,7 +59,7 @@
       display: none 
     &__yoga 
       background: url(../img/travel/yogamedia480.png) no-repeat
-      width: 400px
+      width: 65%
       height: 226px
     &__therapy
       background: url(../img/travel/therapymedia480.png) no-repeat
@@ -68,6 +68,17 @@
       margin: 20px
     &__more 
       background: url(../img/travel/moremedia480.png) no-repeat
-      width: 400px
+      width: 65%
       height: 226px
-      
+@media (min-width: 321px) and (max-width: 479px)
+  .travel
+    .travel
+    &__yoga, &__more
+      width: 90%
+      background-position: center
+@media (max-width: 320px) 
+  .travel
+    &__yoga, &__more
+      width: 90%
+      background-position: center
+   
