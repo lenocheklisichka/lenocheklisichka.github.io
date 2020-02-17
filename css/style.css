@@ -951,6 +951,16 @@ img {
   }
 }
 
+@media (min-width: 321px) and (max-width: 479px) {
+  .schedule__reduction {
+    font-size: 11px;
+  }
+  .schedule__btn {
+    font-size: 8px;
+    padding: 7px;
+  }
+}
+
 .program-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1312,9 +1322,6 @@ img {
     font-size: 14px;
     text-align: center;
   }
-  .ayurveda__text {
-    text-align: center;
-  }
   .ayurveda__text1, .ayurveda__text2 {
     font-size: 13px;
   }
@@ -1323,13 +1330,13 @@ img {
     text-align: center;
   }
   .ayurveda__text3 {
-    max-width: 250px;
+    max-width: 280px;
   }
   .ayurveda__centr {
-    font-size: 22px;
+    font-size: 20px;
   }
   .ayurveda__india {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
