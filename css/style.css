@@ -106,6 +106,11 @@ img {
   cursor: pointer;
 }
 
+.button-o:hover {
+  background-color: #ff8040;
+  border: 1px solid #ff8040;
+}
+
 .bg-secondary {
   background: #f8f2e4;
   height: 530px;
@@ -416,6 +421,10 @@ img {
   font-family: 'Muller Bold', sans-serif;
   text-decoration: none;
   color: #fff;
+}
+
+.navbar__phone:hover {
+  color: #ff8000;
 }
 
 .navbar__title {
@@ -905,6 +914,10 @@ img {
   font-size: 10px;
   font-family: 'Muller Regular', sans-serif;
   padding-top: 15px;
+}
+
+.schedule__link:hover {
+  color: #ff8000;
 }
 
 .schedule__btn {
@@ -1610,6 +1623,10 @@ img {
   color: #ff0000;
 }
 
+.reviews__email:hover {
+  color: #ff8040;
+}
+
 .reviews__text {
   font-size: 15px;
   font-family: 'Muller Light Italic', sans-serif;
@@ -1777,7 +1794,7 @@ img {
   text-align: center;
 }
 
-.work__link {
+.work__link:hover {
   color: #ea7231;
 }
 
@@ -1912,6 +1929,13 @@ img {
   font-family: 'Muller Bold', sans-serif;
   width: 20%;
   margin: 8px 0;
+  cursor: pointer;
+}
+
+.cost__btn:hover {
+  background-color: #ff8040;
+  color: #fff;
+  border: 1px solid #ff8000;
 }
 
 .cost__included {
@@ -2283,6 +2307,10 @@ img {
   text-decoration: none;
 }
 
+.contacts__tel:hover {
+  color: #ff8040;
+}
+
 .contacts__block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2428,6 +2456,11 @@ img {
   color: #ffffff;
   text-decoration: none;
   border-bottom: 1px solid #fff;
+}
+
+.footer__email:hover {
+  color: #ff8040;
+  border-bottom: 1px solid #ff8040;
 }
 
 .footer__box {
