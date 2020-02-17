@@ -842,9 +842,16 @@ img {
   }
 }
 
-@media (min-width: 321px) and (max-width: 479px) {
+@media (min-width: 321px) and (max-width: 336px) {
   .travel__yoga, .travel__more {
     width: 90%;
+    background-position: center;
+  }
+}
+
+@media (min-width: 337px) and (max-width: 479px) {
+  .travel__yoga, .travel__more {
+    width: 68%;
     background-position: center;
   }
 }
