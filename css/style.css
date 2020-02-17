@@ -1018,9 +1018,9 @@ img {
   }
 }
 
-@media (min-width: 481px) and (max-width: 735px) {
+@media (min-width: 481px) and (max-width: 740px) {
   .program__boxing, .program__third {
-    width: 80%;
+    width: 70%;
     background-position: center;
   }
   .program__second {
@@ -1043,11 +1043,26 @@ img {
     width: 400px;
     height: 226px;
     margin: 20px;
+    background-position: center;
   }
   .program__third {
     background: url(../img/program/thirdmedia480.png) no-repeat;
     width: 65%;
     height: 226px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 336px) {
+  .program__boxing, .program__third {
+    width: 90%;
+    background-position: center;
+  }
+}
+
+@media (min-width: 337px) and (max-width: 479px) {
+  .program__boxing, .program__third {
+    width: 68%;
+    background-position: center;
   }
 }
 
