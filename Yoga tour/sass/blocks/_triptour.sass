@@ -1,0 +1,26 @@
+.triptour
+  &-block
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    &__item
+      flex-basis: 33.3%
+      text-align: center
+    &__text
+      font-size: 14px
+      +regular
+@media (max-width: 480px)
+  .triptour
+    &-block
+      justify-content: space-around
+      &__item
+        flex-basis: 50%
+        padding-top: 20px
+@media (max-width: 320px) 
+  .triptour
+    &-block
+      flex-direction: column       
+
+      
+
+      

@@ -1,0 +1,75 @@
+.yogatour
+  &-block
+    display: flex
+    justify-content: space-between
+  &__img
+    background: url(../img/yogatour/img_yoga.png) no-repeat
+    width: 350px
+    height: 440px
+    margin-top: 45px
+  &__box
+    max-width: 340px
+    margin-top: 70px
+  &__title
+    font-size: 25px
+    letter-spacing: 1.5px
+    +medium
+  &__span
+    font-size: 40px
+    +medium
+    text-transform: uppercase
+    padding-top: 15px
+  &__text
+    font-size: 15px
+    +lightitalic
+    padding-top: 25px
+  &__mat
+    background: url(../img/yogatour/yoga_mat.png) no-repeat
+    width: 30px
+    height: 20px
+  &__mor
+    background: url(../img/yogatour/yoga_more.png) no-repeat
+    width: 30px
+    height: 22px
+  &__telegram
+    background: url(../img/yogatour/yoga_telegram.png) no-repeat
+    width: 27px
+    height: 28px 
+  &__blocks
+    display: flex
+    padding-top: 15px
+  &__item 
+    padding-left: 15px
+    font-size: 16px
+    +lightitalic
+    text-transform: uppercase
+@media (max-width: 480px)
+  .yogatour
+    &__block
+      flex-direction: column
+    &__img
+      margin: 60px auto
+    &__box
+      margin-top: 0
+      margin: auto
+    &__title
+      text-align: center
+    &__network
+      width: 50%
+      margin: auto
+@media (max-width: 320px) 
+  .yogatour
+    &__img
+      background: url(../img/yogatour/img_yoga_media.png) no-repeat
+      width: 260px
+      height: 327px
+    &__box
+      margin-top: 10px
+    &__span
+      font-size: 35px
+    &__title, &__text
+      text-align: center
+    &__blocks
+      align-items: center
+    &__item 
+      font-size: 10px
