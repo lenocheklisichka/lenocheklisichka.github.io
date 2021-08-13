@@ -4,7 +4,7 @@
 The layout is done with html / css / sass.
 Adaptive sizes 320, 480, 768
 
-1. [Layout YogaTour](https://lenocheklisichka.github.io/ "йога-тур")
+1. [Layout YogaTour](https://lenocheklisichka.github.io/yogaTour/)
 
 
 
