@@ -1,0 +1,87 @@
+.travel
+  &-block
+    display: flex
+    justify-content: space-around
+    align-items: center
+  &__yoga
+    background: url(../img/travel/yoga.png) no-repeat
+    width: 350px
+    height: 367px  
+  &__therapy
+    background: url(../img/travel/therapy.png) no-repeat
+    background-size: cover
+    color: $text-color
+    width: 780px
+    height: 400px
+    margin: 0 20px
+  &__more
+    background: url(../img/travel/more.png) no-repeat
+    width: 352px
+    height: 367px
+  &__box
+    text-align: center
+    padding-top: 170px  
+  &__ayurveda
+    font-size: 17px
+    +medium
+    text-align: center
+    text-transform: uppercase
+  &__text
+    font-size: 14px
+    +regular
+@media (max-width: 768px)  
+  .travel
+    &-block
+      flex-wrap: wrap
+    &__yoga 
+      background: url(../img/travel/yogamedia.png) no-repeat
+      width: 70%
+      height: 367px
+    &__therapy
+      background: url(../img/travel/therapymedia.png) no-repeat
+      width: 650px
+      height: 366px
+      margin: 20px
+    &__more 
+      background: url(../img/travel/moremedia.png) no-repeat
+      width: 70%
+      height: 367px
+@media (min-width: 481px) and (max-width: 735px)
+  .travel
+    &-block
+      width: 90%
+      margin: auto
+    &__yoga
+      background-position: center
+@media (max-width: 480px)
+  .travel
+    &__box
+      display: none 
+    &__yoga 
+      background: url(../img/travel/yogamedia480.png) no-repeat
+      width: 65%
+      height: 226px
+    &__therapy
+      background: url(../img/travel/therapymedia480.png) no-repeat
+      width: 300px
+      height: 226px
+      margin: 20px
+    &__more 
+      background: url(../img/travel/moremedia480.png) no-repeat
+      width: 65%
+      height: 226px
+@media (min-width: 321px) and (max-width: 336px)
+  .travel
+    &__yoga, &__more
+      width: 90%
+      background-position: center
+@media (min-width: 337px) and (max-width: 479px)
+  .travel
+    &__yoga, &__more
+      width: 68%
+      background-position: center
+@media (max-width: 320px)
+  .travel
+    &__yoga, &__more
+      width: 90%
+      background-position: center
