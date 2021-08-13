@@ -7,4 +7,4 @@
 
  Social network project on React-TS
 
-2. [Project Social-network](https://lenocheklisichka.github.io/ "social-network")
+2. [Project Social-network](https://lenocheklisichka.github.io/ trtyi)
