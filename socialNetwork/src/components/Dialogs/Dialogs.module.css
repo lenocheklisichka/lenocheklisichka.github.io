@@ -1,0 +1,31 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 6fr 10fr;
+}
+
+.dialogsItem {
+    padding: 40px;
+}
+
+.text {
+    width: 50%;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    margin-top: 15px;
+    box-shadow: 4px 4px 8px 0 rgb(34 60 80);
+    border-radius: 5px;
+}
+
+.button {
+    background-color: blue;
+    width: 80px;
+    height: 30px;
+    text-align: start;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
