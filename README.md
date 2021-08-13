@@ -1,5 +1,5 @@
 
-# lenocheklisichka.github.io
+# lenocheklisichka.github.io/trtyi
  Макет сделан с помощью html/css/sass. 
  Размеры адаптива 320, 480, 768
 
@@ -15,4 +15,4 @@
 
 макет ProjectElena
 
-[ProjectElena](https://lenocheklisichka.github.io/ "trtyi")
+[ProjectElena](https://lenocheklisichka.github.io/ "trtyi"/ "ProjectElena")
