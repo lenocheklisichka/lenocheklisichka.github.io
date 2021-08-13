@@ -1,0 +1,2550 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 100%;
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 100%;
+    padding: 0 40px;
+  }
+}
+
+@font-face {
+  font-family: 'Muller Medium';
+  src: url("../fonts/MullerMedium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller Regular';
+  src: url("../fonts/ofont.ru_Muller.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller Bold';
+  src: url("../fonts/ofont.ru_Muller (1).ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller Light';
+  src: url("../fonts/MullerLight.eot") format("eot"), url("../fonts/MullerLight.woff") format("woff"), url("../fonts/MullerLight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller Light Italic';
+  src: url("../fonts/Fontfabric - MullerLightItalic.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '{$icomoon-font-family}';
+  src: url("../fonts/{$icomoon-font-path} {$icomoon-font-family}.eot?26tqn0");
+  src: url("../fonts/{$icomoon-font-path} {$icomoon-font-family}.eot?26tqn0#iefix") format("embedded-opentype"), url("../fonts/{$icomoon-font-path} {$icomoon-font-family}.ttf?26tqn0") format("truetype"), url("../fonts/{$icomoon-font-path} {$icomoon-font-family}.woff?26tqn0") format("woff"), url("../fonts/{$icomoon-font-path} {$icomoon-font-family}.svg?26tqn0 {$icomoon-font-family}") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Muller Light', sans-serif;
+  color: #000;
+  overflow-x: hidden;
+}
+
+h2, h3 {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section-title {
+  font-size: 33px;
+  font-family: 'Muller Medium', sans-serif;
+  color: #000;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.button-o {
+  display: block;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  padding: 17px 50px;
+  font-size: 16px;
+  font-family: 'Muller Bold', sans-serif;
+  margin: auto;
+  color: #fff;
+  background-color: transparent;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+.button-o:hover {
+  border: 2px solid #fff;
+  background-color: #ff8040;
+}
+
+.bg-secondary {
+  background: #f8f2e4;
+  height: 530px;
+}
+
+.bg-travel {
+  background-color: #f8f2e4;
+  height: 460px;
+  position: relative;
+}
+
+.bg-program {
+  background-color: #f8f2e4;
+  height: 460px;
+  position: relative;
+}
+
+.ayurveda-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 950px;
+  margin: auto;
+  padding-top: 120px;
+}
+
+.bg-instructors {
+  background-color: #f8f2e4;
+  height: 955px;
+}
+
+.bg-features {
+  background-color: #f8f2e4;
+  height: 750px;
+}
+
+.bg-cost {
+  background-color: #f8f2e4;
+  height: 1230px;
+}
+
+.bg-contacts {
+  background-color: #f8f2e4;
+  height: 400px;
+}
+
+@media (min-width: 321px) and (max-width: 479px) {
+  .button-o {
+    padding: 15px 20px;
+    font-size: 10px;
+    border: 1px solid #fff;
+  }
+}
+
+@media (max-width: 480px) {
+  .button-o {
+    font-size: 12px;
+    padding: 15px 35px;
+  }
+}
+
+@media (max-width: 320px) {
+  .section {
+    padding: 40px 0;
+  }
+  .button-o {
+    padding: 15px 20px;
+    font-size: 10px;
+    border: 1px solid #fff;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .bg-secondary {
+    height: 950px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bg-secondary {
+    height: 980px;
+  }
+  .yogatour-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 320px) {
+  .bg-secondary {
+    height: 930px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .section-title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 25px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  .section-title {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bg-travel {
+    height: 1200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bg-travel {
+    height: 750px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bg-program {
+    height: 1200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bg-program {
+    height: 750px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ayurveda-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 320px) {
+  .ayurveda-item {
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .bg-instructors {
+    height: 600px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bg-instructors {
+    height: 700px;
+  }
+}
+
+@media (max-width: 320px) {
+  .bg-instructors {
+    height: 500px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 479px) {
+  .bg-instructors {
+    height: 500px;
+  }
+}
+
+@media (max-width: 320px) {
+  .icon-block {
+    max-width: 170px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .bg-features {
+    height: 970px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bg-features {
+    height: 950px;
+  }
+  .section-title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .bg-features {
+    height: 1570px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 479px) {
+  .bg-features {
+    height: 1550px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .bg-cost {
+    height: 1070px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bg-cost {
+    height: 1080px;
+  }
+}
+
+@media (max-width: 320px) {
+  .bg-cost {
+    height: 970px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .bg-contacts {
+    height: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bg-contacts {
+    height: 500px;
+  }
+}
+
+@media (max-width: 320px) {
+  .bg-contacts {
+    height: 720px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 479px) {
+  .bg-contacts {
+    height: 740px;
+  }
+}
+
+.header {
+  background: url(../img/header/bg_yoga.png) no-repeat;
+  height: 663px;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.navbar-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 13px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-box {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.navbar__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 90px;
+  width: 150px;
+  margin: auto;
+}
+
+.navbar__logo {
+  background: url("../img/header/bg_logo.png") no-repeat;
+  width: 80px;
+  height: 160px;
+}
+
+.navbar__mobile {
+  padding-top: 18px;
+  text-align: right;
+}
+
+.navbar__free-call {
+  display: block;
+  font-size: 14px;
+  font-family: 'Muller Regular', sans-serif;
+  margin-bottom: 5px;
+}
+
+.navbar__phone {
+  font-size: 17px;
+  font-family: 'Muller Bold', sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar__phone:hover {
+  color: #ff8000;
+}
+
+.navbar__title {
+  font-size: 50px;
+  font-family: 'Muller Medium', sans-serif;
+  text-transform: uppercase;
+}
+
+.navbar__subtitle {
+  font-size: 20px;
+  font-family: 'Muller Regular', sans-serif;
+  text-transform: uppercase;
+}
+
+.navbar__country {
+  font-size: 15px;
+  font-family: 'Muller Regular', sans-serif;
+}
+
+.navbar .icon {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.navbar .icon:hover {
+  color: #303f9f;
+  border: 1px solid #303f9f;
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .navbar__title {
+    font-size: 35px;
+  }
+  .navbar__subtitle {
+    font-size: 18px;
+  }
+  .navbar-box {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar__title {
+    font-size: 32px;
+  }
+  .navbar__subtitle {
+    font-size: 15px;
+  }
+  .navbar-box {
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 479px) {
+  .navbar__mobile {
+    display: none;
+  }
+  .navbar__title {
+    font-size: 20px;
+  }
+  .navbar__subtitle {
+    font-size: 10px;
+  }
+  .navbar__country {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .navbar-box {
+    padding-top: 50px;
+  }
+  .navbar__mobile {
+    display: none;
+  }
+  .navbar__title {
+    font-size: 20px;
+  }
+  .navbar__subtitle {
+    font-size: 10px;
+  }
+  .navbar__country {
+    font-size: 10px;
+  }
+}
+
+.yogatour-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.yogatour__img {
+  background: url(../img/yogatour/img_yoga.png) no-repeat;
+  width: 350px;
+  height: 440px;
+  margin-top: 45px;
+}
+
+.yogatour__box {
+  max-width: 380px;
+  margin-top: 90px;
+}
+
+.yogatour__title {
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  font-family: 'Muller Medium', sans-serif;
+}
+
+.yogatour__span {
+  font-size: 40px;
+  font-family: 'Muller Medium', sans-serif;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+.yogatour__text {
+  font-size: 15px;
+  font-family: 'Muller Light Italic', sans-serif;
+  padding-top: 25px;
+}
+
+.yogatour__mat {
+  background: url(../img/yogatour/yoga_mat.png) no-repeat;
+  width: 30px;
+  height: 20px;
+}
+
+.yogatour__mor {
+  background: url(../img/yogatour/yoga_more.png) no-repeat;
+  width: 30px;
+  height: 22px;
+}
+
+.yogatour__telegram {
+  background: url(../img/yogatour/yoga_telegram.png) no-repeat;
+  width: 27px;
+  height: 28px;
+}
+
+.yogatour__blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 15px;
+}
+
+.yogatour__item {
+  padding-left: 15px;
+  font-size: 16px;
+  font-family: 'Muller Light Italic', sans-serif;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .yogatour__box {
+    max-width: 300px;
+    margin-top: 80px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .yogatour__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 350px;
+    margin: auto;
+  }
+  .yogatour__title {
+    text-align: center;
+  }
+  .yogatour__box {
+    margin-top: 50px;
+  }
+  .yogatour__network {
+    width: 55%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .yogatour__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .yogatour__img {
+    margin: 60px auto;
+  }
+  .yogatour__box {
+    margin-top: 0;
+    margin: auto;
+  }
+  .yogatour__title {
+    text-align: center;
+  }
+  .yogatour__network {
+    width: 55%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 479px) {
+  .yogatour__span {
+    font-size: 30px;
+  }
+  .yogatour__title, .yogatour__text {
+    text-align: center;
+  }
+  .yogatour__network {
+    width: 70%;
+    margin: auto;
+  }
+  .yogatour__img {
+    background: url(../img/yogatour/img_yoga_media.png) no-repeat;
+    width: 260px;
+    height: 327px;
+  }
+}
+
+@media (max-width: 320px) {
+  .yogatour__img {
+    background: url(../img/yogatour/img_yoga_media.png) no-repeat;
+    width: 260px;
+    height: 327px;
+  }
+  .yogatour__box {
+    margin-top: 10px;
+  }
+  .yogatour__span {
+    font-size: 30px;
+  }
+  .yogatour__title, .yogatour__text {
+    text-align: center;
+  }
+  .yogatour__blocks {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .yogatour__item {
+    font-size: 10px;
+  }
+}
+
+.triptour-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.triptour-block__item {
+  -ms-flex-preferred-size: 33.3%;
+      flex-basis: 33.3%;
+  text-align: center;
+}
+
+.triptour-block__text {
+  font-size: 14px;
+  font-family: 'Muller Regular', sans-serif;
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .triptour-block__item {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .triptour-block {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .triptour-block__item {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .triptour-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 479px) {
+  .triptour-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.travel-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.travel__yoga {
+  background: url(../img/travel/yoga.png) no-repeat;
+  width: 350px;
+  height: 367px;
+}
+
+.travel__therapy {
+  background: url(../img/travel/therapy.png) no-repeat;
+  background-size: cover;
+  color: #fff;
+  width: 780px;
+  height: 400px;
+  margin: 0 20px;
+}
+
+.travel__more {
+  background: url(../img/travel/more.png) no-repeat;
+  width: 352px;
+  height: 367px;
+}
+
+.travel__box {
+  text-align: center;
+  padding-top: 170px;
+}
+
+.travel__ayurveda {
+  font-size: 17px;
+  font-family: 'Muller Medium', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.travel__text {
+  font-size: 14px;
+  font-family: 'Muller Regular', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .travel-block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .travel__yoga {
+    background: url(../img/travel/yogamedia.png) no-repeat;
+    width: 70%;
+    height: 367px;
+  }
+  .travel__therapy {
+    background: url(../img/travel/therapymedia.png) no-repeat;
+    width: 650px;
+    height: 366px;
+    margin: 20px;
+  }
+  .travel__more {
+    background: url(../img/travel/moremedia.png) no-repeat;
+    width: 70%;
+    height: 367px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .travel-block {
+    width: 90%;
+    margin: auto;
+  }
+  .travel__yoga {
+    background-position: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .travel__box {
+    display: none;
+  }
+  .travel__yoga {
+    background: url(../img/travel/yogamedia480.png) no-repeat;
+    width: 65%;
+    height: 226px;
+  }
+  .travel__therapy {
+    background: url(../img/travel/therapymedia480.png) no-repeat;
+    width: 300px;
+    height: 226px;
+    margin: 20px;
+  }
+  .travel__more {
+    background: url(../img/travel/moremedia480.png) no-repeat;
+    width: 65%;
+    height: 226px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 336px) {
+  .travel__yoga, .travel__more {
+    width: 90%;
+    background-position: center;
+  }
+}
+
+@media (min-width: 337px) and (max-width: 479px) {
+  .travel__yoga, .travel__more {
+    width: 68%;
+    background-position: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .travel__yoga, .travel__more {
+    width: 90%;
+    background-position: center;
+  }
+}
+
+.schedule {
+  margin-top: 140px;
+}
+
+.schedule-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.schedule__item {
+  -ms-flex-preferred-size: 23%;
+      flex-basis: 23%;
+  margin: 8px auto;
+  background-color: #fff8e6;
+}
+
+.schedule__section {
+  text-align: center;
+  padding-top: 18px;
+}
+
+.schedule__date {
+  font-size: 14px;
+  font-family: 'Muller Light Italic', sans-serif;
+  text-align: center;
+}
+
+.schedule__reduction {
+  font-size: 18px;
+  font-family: 'Muller Medium', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.schedule__link {
+  font-size: 12px;
+  font-family: 'Muller Regular', sans-serif;
+  padding-top: 15px;
+  color: #4b4b4b;
+}
+
+.schedule__link:hover {
+  color: #5a56b0;
+  border-bottom: 1px solid #5a56b0;
+}
+
+.schedule__btn {
+  border: 1px solid #e28234;
+  font-size: 10px;
+  font-family: 'Muller Bold', sans-serif;
+  color: #e28234;
+  text-transform: uppercase;
+  padding: 9px 16px;
+  margin: 10px auto;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.schedule__btn:hover {
+  background-color: #e28234;
+  color: #fff;
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .schedule__item {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+  }
+  .schedule__reduction {
+    font-size: 13px;
+  }
+  .schedule__btn {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .schedule__item {
+    -ms-flex-preferred-size: 46%;
+        flex-basis: 46%;
+  }
+}
+
+@media (max-width: 320px) {
+  .schedule__item {
+    -ms-flex-preferred-size: 70%;
+        flex-basis: 70%;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 479px) {
+  .schedule__reduction {
+    font-size: 11px;
+  }
+  .schedule__btn {
+    font-size: 8px;
+    padding: 7px;
+  }
+}
+
+.program-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.program__boxing {
+  background: url(../img/program/boxing.png) no-repeat;
+  width: 459px;
+  height: 379px;
+  margin-left: -40px;
+}
+
+.program__second {
+  background: url(../img/program/second.png) no-repeat;
+  background-size: cover;
+  color: #fff;
+  width: 650px;
+  height: 379px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.program__second:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  border: 7px solid #fff;
+}
+
+.program__third {
+  background: url(../img/program/third.png) no-repeat;
+  width: 415px;
+  height: 379px;
+  margin-right: -20px;
+}
+
+.program__box {
+  display: none;
+}
+
+.program__box:hover {
+  display: block;
+  text-align: center;
+  padding-top: 140px;
+}
+
+.program__day {
+  font-size: 24px;
+  font-family: 'Muller Medium', sans-serif;
+  text-transform: uppercase;
+  margin: 0 100px;
+}
+
+.program__text {
+  font-size: 13px;
+  font-family: 'Muller Regular', sans-serif;
+  line-height: 18px;
+}
+
+@media (max-width: 768px) {
+  .program-block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .program__boxing {
+    background: url(../img/program/boxingmedia.png) no-repeat;
+    width: 70%;
+    height: 367px;
+    background-position: center;
+  }
+  .program__second {
+    background: url(../img/program/secondmedia.png) no-repeat;
+    width: 650px;
+    height: 366px;
+    margin: 20px;
+  }
+  .program__third {
+    background: url(../img/program/thirdmedia.png) no-repeat;
+    width: 70%;
+    height: 367px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 740px) {
+  .program__boxing, .program__third {
+    width: 70%;
+    background-position: center;
+  }
+  .program__second {
+    background-position: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .program__box {
+    display: none;
+  }
+  .program__boxing {
+    background: url(../img/program/boxingmedia480.png) no-repeat;
+    width: 65%;
+    height: 226px;
+    background-position: center;
+  }
+  .program__second {
+    background: url(../img/program/secondmedia480.png) no-repeat;
+    width: 400px;
+    height: 226px;
+    margin: 20px;
+    background-position: center;
+  }
+  .program__third {
+    background: url(../img/program/thirdmedia480.png) no-repeat;
+    width: 65%;
+    height: 226px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 336px) {
+  .program__boxing, .program__third {
+    width: 90%;
+    background-position: center;
+  }
+}
+
+@media (min-width: 337px) and (max-width: 479px) {
+  .program__boxing, .program__third {
+    width: 68%;
+    background-position: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .program__boxing, .program__third {
+    width: 95%;
+  }
+  .program__second {
+    background-position: center;
+  }
+}
+
+.ayurveda {
+  margin-top: 160px;
+}
+
+.ayurveda__text1, .ayurveda__text2 {
+  font-size: 16px;
+  font-family: 'Muller Light', sans-serif;
+  text-align: center;
+}
+
+.ayurveda__text2 {
+  padding-bottom: 40px;
+}
+
+.ayurveda__block {
+  max-width: 610px;
+  margin: auto;
+}
+
+.ayurveda__program {
+  font-size: 23px;
+  font-family: 'Muller Medium', sans-serif;
+}
+
+.ayurveda__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 30px;
+}
+
+.ayurveda__section {
+  padding-top: 50px;
+}
+
+.ayurveda__advice {
+  font-size: 17px;
+  font-family: 'Muller Light', sans-serif;
+  padding-left: 25px;
+}
+
+.ayurveda__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 700px;
+}
+
+.ayurveda__img {
+  padding: 10px;
+  width: 33.3%;
+}
+
+.ayurveda__text3 {
+  padding: 30px 0 0 30px;
+  max-width: 860px;
+}
+
+.ayurveda__centr {
+  font-size: 30px;
+  font-family: 'Muller Medium', sans-serif;
+}
+
+.ayurveda__india {
+  font-size: 15px;
+  font-family: 'Muller Light', sans-serif;
+}
+
+.ayurveda__text {
+  font-size: 13px;
+  font-family: 'Muller Light', sans-serif;
+}
+
+.ayurveda__text4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+}
+
+.ayurveda__blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-top: 10px;
+}
+
+.ayurveda__items {
+  font-size: 12px;
+  font-family: 'Muller Light', sans-serif;
+  padding-left: 10px;
+  max-width: 200px;
+}
+
+.ayurveda__blocks2 {
+  padding-left: 35px;
+}
+
+@media (max-width: 768px) {
+  .ayurveda-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ayurveda__image {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: auto;
+  }
+  .ayurveda__img {
+    width: 33%;
+  }
+  .ayurveda__text3 {
+    margin: auto;
+    padding: 25px;
+    max-width: 720px;
+  }
+  .ayurveda__text4 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .ayurveda__program {
+    font-size: 16px;
+    text-align: center;
+  }
+  .ayurveda__image {
+    max-width: 400px;
+    margin: auto;
+  }
+  .ayurveda__img {
+    width: 33.3%;
+  }
+  .ayurveda__text3 {
+    margin: auto;
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ayurveda__program {
+    font-size: 16px;
+    text-align: center;
+  }
+  .ayurveda__image {
+    max-width: 350px;
+    margin: auto;
+  }
+  .ayurveda__img {
+    width: 50%;
+  }
+  .ayurveda__centr {
+    font-size: 28px;
+  }
+  .ayurveda__text3 {
+    max-width: 340px;
+    margin: auto;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .ayurveda__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ayurveda__advice {
+    font-size: 14px;
+    text-align: center;
+  }
+  .ayurveda__image {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .ayurveda__img {
+    width: 65%;
+  }
+  .ayurveda__text {
+    font-size: 10px;
+  }
+  .ayurveda__text1, .ayurveda__text2 {
+    font-size: 13px;
+  }
+  .ayurveda__program {
+    font-size: 14px;
+    text-align: center;
+  }
+  .ayurveda__text3 {
+    max-width: 250px;
+    padding-left: 27px;
+  }
+  .ayurveda__centr {
+    font-size: 14px;
+  }
+  .ayurveda__india {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 479px) {
+  .ayurveda__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ayurveda__advice {
+    font-size: 14px;
+    text-align: center;
+  }
+  .ayurveda__text1, .ayurveda__text2 {
+    font-size: 13px;
+  }
+  .ayurveda__program {
+    font-size: 14px;
+    text-align: center;
+  }
+  .ayurveda__text3 {
+    max-width: 280px;
+  }
+  .ayurveda__centr {
+    font-size: 20px;
+  }
+  .ayurveda__india {
+    font-size: 13px;
+  }
+}
+
+.instructors__img1 {
+  background: url(../img/instructors/instructors_img1.png) no-repeat;
+  width: 750px;
+  height: 431px;
+  position: relative;
+}
+
+.instructors__img2 {
+  background: url(../img/instructors/instructors_img2.png) no-repeat;
+  width: 750px;
+  height: 431px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.instructors__image {
+  max-width: 750px;
+  margin: auto;
+}
+
+.instructors__block {
+  width: 750px;
+  height: 137px;
+  background-color: #80878e;
+  opacity: 0.6;
+  position: absolute;
+  top: 68%;
+}
+
+.instructors__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 68%;
+  left: 7%;
+}
+
+.instructors__name {
+  font-size: 18px;
+  font-family: 'Muller Bold', sans-serif;
+}
+
+.instructors__profession {
+  font-size: 12px;
+  font-family: 'Muller Regular', sans-serif;
+  max-width: 87px;
+}
+
+.instructors__hr {
+  border-right: 1px solid #fff;
+  height: 70px;
+  margin-top: 30px;
+}
+
+.instructors__province {
+  font-size: 13px;
+  font-family: 'Muller Regular', sans-serif;
+  display: block;
+  padding-left: 30px;
+  max-width: 450px;
+}
+
+.instructors__item {
+  display: block;
+  color: #fff;
+  padding-right: 30px;
+  padding-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .instructors__image {
+    margin: auto;
+    width: 80%;
+  }
+  .instructors__img1 {
+    background: url(../img/instructors/instructors_img1media.png) no-repeat;
+    width: 100%;
+    height: 373px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .instructors__img2 {
+    background: url(../img/instructors/instructors_img2media.png) no-repeat;
+    width: 100%;
+    height: 373px;
+    margin: auto;
+  }
+  .instructors__block {
+    width: 100%;
+    height: 120px;
+  }
+  .instructors__name {
+    font-size: 15px;
+  }
+  .instructors__province {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .instructors__image {
+    width: 100%;
+    margin: auto;
+  }
+  .instructors__img1 {
+    background: url(../img/instructors/instructors_img1media481.png) no-repeat;
+    width: 420px;
+    height: 241px;
+  }
+  .instructors__img2 {
+    background: url(../img/instructors/instructors_img2media481.png) no-repeat;
+    width: 420px;
+    height: 241px;
+  }
+  .instructors__block {
+    width: 420px;
+    height: 78px;
+  }
+  .instructors__box {
+    top: 64%;
+  }
+  .instructors__province {
+    font-size: 9px;
+  }
+  .instructors__name {
+    font-size: 12px;
+  }
+  .instructors__profession {
+    font-size: 8px;
+  }
+  .instructors__hr {
+    height: 60px;
+    margin-top: 20px;
+  }
+  .instructors__item {
+    padding-top: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .instructors__image {
+    width: 100%;
+    margin: auto;
+  }
+  .instructors__img1 {
+    background: url(../img/instructors/instructors_img1media480.png) no-repeat;
+    width: 400px;
+    height: 230px;
+  }
+  .instructors__img2 {
+    background: url(../img/instructors/instructors_img2media480.png) no-repeat;
+    width: 400px;
+    height: 230px;
+  }
+  .instructors__block {
+    width: 400px;
+    height: 100px;
+    top: 57%;
+  }
+  .instructors__item {
+    padding-top: 10px;
+  }
+  .instructors__box {
+    top: 53%;
+  }
+  .instructors__hr {
+    margin-top: 20px;
+  }
+  .instructors__name {
+    font-size: 13px;
+  }
+  .instructors__province {
+    font-size: 10px;
+  }
+  .instructors__profession {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 320px) {
+  .instructors__img1 {
+    background: url(../img/instructors/instructors_img1media320.png) no-repeat;
+    width: 250px;
+    height: 144px;
+  }
+  .instructors__img2 {
+    background: url(../img/instructors/instructors_img2media320.png) no-repeat;
+    width: 250px;
+    height: 144px;
+  }
+  .instructors__block {
+    display: none;
+  }
+  .instructors__hr {
+    display: none;
+  }
+  .instructors__item {
+    padding: 0;
+  }
+  .instructors__name {
+    font-size: 11px;
+  }
+  .instructors__profession, .instructors__province {
+    font-size: 7px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 479px) {
+  .instructors__img1 {
+    background: url(../img/instructors/instructors_img1media320.png) no-repeat;
+    width: 250px;
+    height: 144px;
+  }
+  .instructors__img2 {
+    background: url(../img/instructors/instructors_img2media320.png) no-repeat;
+    width: 250px;
+    height: 144px;
+  }
+  .instructors__block {
+    display: none;
+  }
+  .instructors__hr {
+    display: none;
+  }
+  .instructors__item {
+    padding: 0;
+  }
+  .instructors__name {
+    font-size: 11px;
+  }
+  .instructors__profession, .instructors__province {
+    font-size: 7px;
+  }
+}
+
+.reviews {
+  margin-top: 100px;
+}
+
+.reviews-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.reviews__box {
+  max-width: 490px;
+}
+
+.reviews__img {
+  background: url(../img/reviews/reviews_img.png) no-repeat;
+  width: 150px;
+  height: 150px;
+}
+
+.reviews__name {
+  font-size: 18px;
+  font-family: 'Muller Medium', sans-serif;
+  display: block;
+}
+
+.reviews__email {
+  font-size: 14px;
+  font-family: 'Muller Light', sans-serif;
+  color: #393939;
+}
+
+.reviews__email:hover {
+  color: #c94410;
+  text-decoration: underline;
+}
+
+.reviews__text {
+  font-size: 15px;
+  font-family: 'Muller Light Italic', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .reviews {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .reviews-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 350px;
+    margin: auto;
+  }
+  .reviews__img {
+    margin: auto;
+  }
+  .reviews__name {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .reviews__email {
+    text-align: center;
+  }
+  .reviews__text {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .reviews {
+    margin-top: 0;
+  }
+  .reviews-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 350px;
+    margin: auto;
+  }
+  .reviews__img {
+    margin: auto;
+  }
+  .reviews__name {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .reviews__email {
+    text-align: center;
+  }
+  .reviews__text {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .reviews__text {
+    text-align: center;
+    font-size: 13px;
+  }
+}
+
+.features-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: auto;
+}
+
+.features-block__item {
+  -ms-flex-preferred-size: 28%;
+      flex-basis: 28%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.features-block__heading {
+  font-size: 17px;
+  font-family: 'Muller Bold', sans-serif;
+}
+
+.features-block__text {
+  font-size: 14px;
+  font-family: 'Muller Light', sans-serif;
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .features-block__item {
+    -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .features-block__item {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+  }
+  .features-block__text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .features-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 479px) {
+  .features-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.work__design {
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Muller Light Italic', sans-serif;
+}
+
+.work-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.work__item {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+
+.work__img {
+  display: block;
+  margin: auto;
+}
+
+.work__text, .work__link {
+  font-size: 12px;
+  font-family: 'Muller Regular', sans-serif;
+  text-align: center;
+}
+
+.work__link:hover {
+  color: #ea7231;
+}
+
+@media (max-width: 768px) {
+  .work-block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .work__item {
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .work-block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 450px;
+    margin: auto;
+  }
+  .work__design {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .work__design {
+    font-size: 12px;
+  }
+  .work-block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 450px;
+    margin: auto;
+  }
+  .work__item {
+    padding-bottom: 30px;
+    -webkit-box-flex: 45%;
+        -ms-flex: 45%;
+            flex: 45%;
+  }
+}
+
+@media (max-width: 320px) {
+  .work-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 479px) {
+  .work-block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.cost-wrap {
+  width: 700px;
+  height: 250px;
+  background-color: #fff;
+  position: relative;
+  margin: auto;
+}
+
+.cost__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 30px;
+}
+
+.cost__section {
+  width: 600px;
+}
+
+.cost__section-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cost__day {
+  font-size: 16px;
+  font-family: 'Muller Bold', sans-serif;
+}
+
+.cost__program {
+  font-size: 16px;
+  font-family: 'Muller Regular', sans-serif;
+}
+
+.cost__euro {
+  font-size: 16px;
+  font-family: 'Muller Medium', sans-serif;
+  color: #dd490f;
+  display: block;
+}
+
+.cost__block {
+  width: 100%;
+  height: 70px;
+  background-color: #f4e1b6;
+  position: absolute;
+  top: 80%;
+}
+
+.cost__text {
+  font-size: 16px;
+  font-family: 'Muller Medium', sans-serif;
+}
+
+.cost__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 10px;
+}
+
+.cost__btn {
+  display: block;
+  text-transform: uppercase;
+  border: 2px solid #e28234;
+  background-color: #f4e1b6;
+  color: #e28234;
+  font-size: 10px;
+  font-family: 'Muller Bold', sans-serif;
+  width: 20%;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.cost__btn:hover {
+  background-color: #ff8040;
+  color: #fff;
+  border: 1px solid #ff8000;
+}
+
+.cost__included {
+  font-size: 23px;
+  font-family: 'Muller Medium', sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.cost__item1 {
+  font-size: 15px;
+  font-family: 'Muller Regular', sans-serif;
+  padding-left: 20px;
+}
+
+.cost__eurorate {
+  font-size: 17px;
+  font-family: 'Muller Bold', sans-serif;
+  text-align: center;
+}
+
+.cost__check {
+  background: url(../img/cost/check.png) no-repeat;
+  width: 14px;
+  height: 10px;
+}
+
+.cost__block1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cost__box2 {
+  max-width: 600px;
+  margin: auto;
+}
+
+.cost__delet {
+  background: url(../img/cost/delet.png) no-repeat;
+  width: 9px;
+  height: 9px;
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .cost-wrap {
+    width: 100%;
+    height: 200px;
+  }
+  .cost__section1 {
+    padding-top: 16px;
+  }
+  .cost__block {
+    width: 100%;
+    height: 50px;
+  }
+  .cost__box {
+    padding-top: 10px;
+  }
+  .cost__program, .cost__day {
+    font-size: 12px;
+  }
+  .cost__euro {
+    font-size: 14px;
+  }
+  .cost__text {
+    font-size: 12px;
+  }
+  .cost__btn {
+    font-size: 9px;
+  }
+  .cost__item1 {
+    font-size: 12px;
+    padding-left: 24px;
+  }
+  .cost__box2 {
+    max-width: 400px;
+  }
+  .cost__eurorate {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cost-wrap {
+    width: 100%;
+    height: 200px;
+  }
+  .cost__section1 {
+    padding-top: 16px;
+  }
+  .cost__block {
+    width: 100%;
+    height: 50px;
+  }
+  .cost__box {
+    padding-top: 10px;
+  }
+  .cost__program, .cost__day {
+    font-size: 12px;
+  }
+  .cost__euro {
+    font-size: 14px;
+  }
+  .cost__text {
+    font-size: 12px;
+  }
+  .cost__btn {
+    font-size: 9px;
+  }
+  .cost__item1 {
+    font-size: 12px;
+    padding-left: 24px;
+  }
+  .cost__box2 {
+    max-width: 400px;
+  }
+  .cost__eurorate {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cost-wrap {
+    height: 170px;
+  }
+  .cost__section1 {
+    padding-top: 15px;
+  }
+  .cost__program, .cost__day {
+    font-size: 7px;
+    padding-bottom: 18px;
+  }
+  .cost__euro {
+    font-size: 9px;
+  }
+  .cost__text {
+    font-size: 7px;
+  }
+  .cost__btn {
+    font-size: 6px;
+    border: 1px solid;
+  }
+  .cost__block {
+    height: 35px;
+  }
+  .cost__included {
+    font-size: 18px;
+  }
+  .cost__item1, .cost__eurorate {
+    font-size: 11px;
+  }
+  .cost__check, .cost__delet {
+    display: none;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 479px) {
+  .cost-wrap {
+    width: 100%;
+    height: 170px;
+  }
+  .cost__section1 {
+    padding-top: 15px;
+  }
+  .cost__program, .cost__day {
+    font-size: 7px;
+    padding-bottom: 18px;
+  }
+  .cost__euro {
+    font-size: 9px;
+  }
+  .cost__block {
+    height: 40px;
+  }
+  .cost__text {
+    font-size: 7px;
+    padding-top: 5px;
+  }
+  .cost__btn {
+    font-size: 7px;
+    border: 1px solid #e28234;
+    margin: 10px 0;
+  }
+  .cost__included {
+    font-size: 20px;
+  }
+  .cost__check, .cost__delet {
+    display: none;
+  }
+}
+
+.document__text {
+  font-size: 12px;
+  font-family: 'Muller Light Italic', sans-serif;
+  text-align: center;
+}
+
+.document__heading {
+  font-size: 23px;
+  font-family: 'Muller Medium', sans-serif;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.document__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 15px;
+}
+
+.document__img1 {
+  background: url(../img/document/img-1.png) no-repeat;
+  width: 110px;
+  height: 141px;
+}
+
+.document__img2 {
+  background: url(../img/document/img-2.png) no-repeat;
+  width: 110px;
+  height: 141px;
+}
+
+.document__img3 {
+  background: url(../img/document/img-3.png) no-repeat;
+  width: 110px;
+  height: 141px;
+}
+
+.document__img4 {
+  background: url(../img/document/img-4.png) no-repeat;
+  width: 110px;
+  height: 141px;
+}
+
+.document__text1 {
+  font-size: 11px;
+  font-family: 'Muller Regular', sans-serif;
+  text-align: center;
+}
+
+.document__img {
+  display: block;
+  margin: auto;
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .document__block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 300px;
+    margin: auto;
+  }
+  .document__heading {
+    font-size: 18px;
+  }
+  .document__text {
+    font-size: 11px;
+  }
+  .document__text1 {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 480px) {
+  .document__text {
+    font-size: 11px;
+  }
+  .document__heading {
+    font-size: 18px;
+  }
+  .document__text1 {
+    font-size: 9px;
+  }
+  .document__block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 280px;
+    margin: auto;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .document__text {
+    font-size: 10px;
+  }
+  .document__heading {
+    font-size: 12px;
+  }
+  .document__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .document__box {
+    padding-bottom: 20px;
+  }
+}
+
+.contacts__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contacts__heading {
+  font-size: 20px;
+  font-family: 'Muller Medium', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contacts__text {
+  font-size: 15px;
+  font-family: 'Muller Medium', sans-serif;
+}
+
+.contacts__network {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contacts__vk {
+  background: url(../img/contacts/vk.png) no-repeat;
+  width: 40px;
+  height: 40px;
+  margin-right: 14px;
+}
+
+.contacts__fs {
+  background: url(../img/contacts/fs.png) no-repeat;
+  width: 40px;
+  height: 40px;
+  margin-right: 14px;
+}
+
+.contacts__inst {
+  background: url(../img/contacts/inst.png) no-repeat;
+  width: 40px;
+  height: 40px;
+}
+
+.contacts__text2 {
+  font-size: 10px;
+  font-family: 'Muller Light Italic', sans-serif;
+}
+
+.contacts__text3 {
+  font-size: 15px;
+  font-family: 'Muller Medium', sans-serif;
+  text-align: center;
+}
+
+.contacts__tel {
+  font-size: 28px;
+  font-family: 'Muller Bold', sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+
+.contacts__tel:hover {
+  color: #ff8040;
+}
+
+.contacts__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contacts__map1 {
+  background: url(../img/contacts/map-1.png) no-repeat;
+  width: 200px;
+  height: 80px;
+}
+
+.contacts__map2 {
+  background: url(../img/contacts/map-2.png) no-repeat;
+  width: 200px;
+  height: 80px;
+}
+
+.contacts__map3 {
+  background: url(../img/contacts/map-3.png) no-repeat;
+  width: 200px;
+  height: 80px;
+}
+
+.contacts__maptext {
+  font-size: 11px;
+  font-family: 'Muller Regular', sans-serif;
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .contacts__block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .contacts__tel {
+    font-size: 20px;
+  }
+  .contacts__text2 {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contacts__heading {
+    font-size: 18px;
+  }
+  .contacts__text {
+    font-size: 12px;
+  }
+  .contacts__text2 {
+    font-size: 9px;
+  }
+  .contacts__tel {
+    font-size: 21px;
+  }
+  .contacts__block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .contacts__text3 {
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 479px) {
+  .contacts__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contacts__text {
+    text-align: center;
+  }
+  .contacts__block2, .contacts__block3 {
+    margin-top: 22px;
+  }
+  .contacts__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .contacts__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contacts__text {
+    text-align: center;
+  }
+  .contacts__block2, .contacts__block3 {
+    margin-top: 20px;
+  }
+}
+
+.footer {
+  background-color: #000;
+  height: 90px;
+}
+
+.footer-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 16px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #fff;
+}
+
+.footer__logo {
+  background: url("../img/footer/footer-logo.png") no-repeat;
+  width: 51px;
+  height: 66px;
+  margin-right: 25px;
+}
+
+.footer__text {
+  font-size: 10px;
+  font-family: 'Muller Regular', sans-serif;
+  display: block;
+}
+
+.footer__email {
+  font-size: 16px;
+  font-family: 'Muller Regular', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+}
+
+.footer__email:hover {
+  color: #ff8040;
+  border-bottom: 1px solid #ff8040;
+}
+
+.footer__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width: 481px) and (max-width: 735px) {
+  .footer {
+    height: 160px;
+  }
+  .footer-wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer__text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    height: 160px;
+  }
+  .footer-wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer__text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__email {
+    font-size: 13px;
+  }
+  .footer__text {
+    font-size: 9px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
