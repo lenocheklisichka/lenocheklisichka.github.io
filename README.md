@@ -1,5 +1,5 @@
 
-# lenocheklisichka.github.io/trtyi
+# lenocheklisichka.github.io
  Макет сделан с помощью html/css/sass. 
  Размеры адаптива 320, 480, 768
 
