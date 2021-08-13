@@ -1,0 +1,215 @@
+.glazing
+  &__block
+    display: flex
+    justify-content: space-around
+    padding-top: 80px
+  &__item
+    width: 130px
+    text-align: center
+  &__item:hover
+    cursor: pointer
+    transform: scale(1.2)
+  &__description
+    font-size: 14px
+    line-height: 1.44
+    font-family: 'Open Sans Semibold', sans-serif
+    padding-top: 15px
+    color: #249ae6
+    text-decoration: underline
+  &__description:hover
+    color: #464646
+    text-decoration: none
+  &__box
+    display: flex
+    padding-top: 40px
+  &__block-1
+    width: 500px
+    height: 640px
+    border-top: 4px solid #0d8fe3
+    border-radius: 3px
+    background: linear-gradient(to bottom, #e8f4fc, #fff)
+  &__block-2
+    width: 500px
+    height: 640px
+    border-top: 4px solid #ffb903
+    border-radius: 3px
+    background: linear-gradient(to bottom, #fff8e7, #fff)
+  &__block-1:hover, &__block-2:hover 
+    transform: scale(0.9)
+  &__triangle-down
+    width: 0
+    height: 0
+    border-left: 10px solid transparent
+    border-right: 10px solid transparent
+    margin: auto
+  &__triangle-down-1
+    border-top: 10px solid #0d8fe3
+  &__triangle-down-2
+    border-top: 10px solid #ffb903
+  &__title-1, &__title-2
+    font-size: 15px
+    font-family: 'Open Sans Bold', sans-serif
+    text-transform: uppercase
+    padding: 20px 0 30px
+  &__title-2
+    color: #ffb903
+  &__title-1
+    color: #0d8fe3
+  &__box-item
+    text-align: center
+  &__list
+    padding-top: 34px
+  &__list-item
+    font-size: 12px
+    font-family: 'Open Sans Regular', sans-serif
+    line-height: 2
+    padding-left: 15px
+  &__icon
+    text-align: center
+    width: 18px
+    height: 18px
+    border-radius: 30px
+    background-color: #e8e8e8
+    text-decoration: none
+  &__icon-done:before
+    content: "\1f5f8"
+  &__icon-box
+    display: flex
+    align-items: center
+  &__price
+    font-size: 15px
+    font-family: 'Open Sans Bold', sans-serif
+  &__turnkey
+    font-size: 10px
+    font-family: 'Open Sans Regular', sans-serif
+    padding-top: 10px
+  &__btn
+    background: linear-gradient(to bottom, #ffeb25, #ffb803)
+    padding: 15px 20px
+    border-radius: 10px
+    text-transform: uppercase
+    font-size: 14px
+    border: 1px solid #ffc600
+    font-family: 'Open Sans Condensed Bold', sans-serif
+  &__btn:hover
+    border: 2px solid #ffc600
+    cursor: pointer
+  &__box-price
+    display: flex
+    justify-content: space-between
+    width: 415px
+    margin: auto
+    padding-top: 40px
+@media (max-width: 660px)
+  .glazing
+    &__block
+      flex-wrap: wrap
+      width: 500px
+      margin: auto
+      padding-top: 0
+    &__item
+      padding-top: 50px
+@media (max-width: 550px)
+  .glazing
+    &__block
+      width: 380px
+@media (max-width: 410px) 
+  .glazing
+    &__block
+      flex-direction: column
+      width: 130px
+@media (max-width: 976px)
+  .glazing
+    &__img1, &__img2
+      width: 380px
+    &__box-price
+      width: 380px
+@media (max-width: 920px)
+  .glazing
+    &__img1, &__img2
+      width: 340px
+    &__box-price
+      width: 340px  
+    &__list-item
+      font-size: 10px
+      line-height: 2.5
+@media (max-width: 830px)
+  .glazing
+    &__img1, &__img2
+      width: 310px
+    &__box-price
+      width: 310px 
+    &__btn
+      font-size: 10px
+      padding: 13px
+    &__list-item
+      font-size: 9px
+@media (max-width: 768px)
+  .glazing
+    &__box
+      flex-direction: column
+    &__block-1, &__block-2
+      width: 430px
+      height: 550px
+      margin: auto
+@media (max-width: 500px)
+  .glazing
+    &__block-1, &__block-2
+      width: 360px
+@media (max-width: 420px) 
+  .glazing    
+    &__img1, &__img2
+      width: 270px 
+    &__box-price
+      width: 270px
+    &__block-1, &__block-2
+      width: 320px
+      height: 510px
+@media (max-width: 382px) 
+  .glazing    
+    &__img1, &__img2
+      width: 220px 
+    &__box-price
+      width: 230px
+      padding-top: 20px
+    &__block-1, &__block-2
+      width: 300px
+    &__price
+      font-size: 12px
+    &__turnkey
+      font-size: 10px
+    &__list-item
+      font-size: 7px
+      line-height: 3.5
+    &__box-price
+      flex-direction: column
+    &__price-item
+      text-align: center
+      padding-bottom: 20px
+@media (max-width: 355px) 
+  .glazing 
+    &__block-1, &__block-2
+      width: 260px
+    &__block-2 
+      height: 540px
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+    
+    
+
+

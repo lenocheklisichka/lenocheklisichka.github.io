@@ -1,0 +1,28 @@
+.warrant
+  &__box-content
+    display: flex
+    flex-wrap: wrap
+    max-width: 900px
+    margin: auto
+    text-align: center
+    justify-content: space-between
+    padding-top: 40px
+  &__box-icon
+    flex: 33.3%
+    padding-top: 60px
+  &__box-icon:hover
+    cursor: pointer
+    transform: scale(1.2)
+  &__box-text
+    font-size: 15px
+    font-family: 'Open Sans Semibold', sans-serif
+    color: #ffffff
+    padding-top: 25px
+@media (max-width: 670px)
+  .warrant
+    &__box-icon
+      flex: 40%
+@media (max-width: 440px)
+  .warrant
+    &__box-icon
+      flex: 55%
