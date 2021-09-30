@@ -10,7 +10,7 @@ Adaptive sizes 320, 480, 768
 
  Social network project on React-TS
 
-2. [Project SocialNetwork](https://lenocheklisichka.github.io/socialNetwork/)
+2. [Project SocialNetwork](https://lenocheklisichka.github.io/social-network/)
 
 
 
