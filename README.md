@@ -27,3 +27,8 @@ Model ProjectWindow.
  Portfolio - React.
 
 5. [Portfolio](https://lenocheklisichka.github.io/portfolio/)
+
+
+Counter-React.
+
+6. [Counter](https://lenocheklisichka.github.io/counter-2/)
